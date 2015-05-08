@@ -10,7 +10,7 @@ namespace KuasCore.Services.Impl
 
         public void AddCourse(Course course)
         {
-            EmployeeDao.AddEmployee(course);
+            EmployeeDao.AddCourse(course);
         }
 
         public Course GetCourseByName(string Name)

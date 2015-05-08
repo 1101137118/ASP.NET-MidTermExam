@@ -12,7 +12,7 @@ namespace KuasCore.Dao.Impl
 {
     class CourseDao : GenericDao<Course>
     {
-        public void AddEmployee(Course course)
+        public void AddCourse(Course course)
         {
             string command = @"INSERT INTO Course (CourseID, CourseName, CourseDescription) VALUES (@CourseID, @CourseName, @CourseDescription);";
 
