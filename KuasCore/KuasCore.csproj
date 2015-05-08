@@ -72,13 +72,7 @@
     <Compile Include="Interceptors\DebogLogInterceptor.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\ICompanyService.cs" />
     <Compile Include="Services\Impl\CourseService.cs" />
-    <Compile Include="Services\Impl\TxEmployeeService.cs" />
-    <Compile Include="Services\ITxEmployeeService.cs" />
-    <Compile Include="Services\IEmployeeService.cs" />
-    <Compile Include="Services\Impl\CompanyService.cs" />
-    <Compile Include="Services\Impl\EmployeeService.cs" />
     <Compile Include="Core\ObjectFactory.cs" />
   </ItemGroup>
   <ItemGroup>

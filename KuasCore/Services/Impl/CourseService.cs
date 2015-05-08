@@ -6,16 +6,16 @@ namespace KuasCore.Services.Impl
 {
     class CourseService
     {
-        public IEmployeeDao EmployeeDao { get; set; }
+        public CourseDao EmployeeDao { get; set; }
 
-        public void AddCourse(Employee employee)
+        public void AddCourse(Course course)
         {
-            EmployeeDao.AddEmployee(employee);
+            EmployeeDao.AddEmployee(course);
         }
 
-        public Employee GetCourseByName(string Name)
+        public Course GetCourseByName(string Name)
         {
-            return EmployeeDao.GetEmployeeById(Name);
+            return CourseDao.GetCourseByName(Name);
         }
     }
 }
